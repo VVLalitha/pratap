@@ -1,0 +1,66 @@
+lalithachv@gmail.com
+
+
+
+ git status
+ git init
+
+git add  1.txt 2.txt
+
+git commit -m "pratap test"
+
+ git config --global user.name "pratap"
+git config --global user.email "lalithachv@gmail.com"
+git config --global --list
+
+git config --global help.autocorrect 1
+git config --global code.editor "vim"
+ git add .
+git add *
+
+
+if you are using system commands
+make changes
+add
+commit
+
+for git commands
+make changes 
+commit
+
+
+git log'
+git log --oneline
+
+last commit made by you is called as head
+git rm --cached 2.txt
+
+git tag --a v1.0 -m "new version"
+git tag --a v1.1 -m "new version" 71460d5
+
+git show 71460d5
+git diff HEAD~1..HEAD (you can use commit ids also)
+git diff HEAD~2..HEAD
+
+create a file called as .gitignore . the file list that is mentioned in this file will be ignored by git. This will be respected only after .gitignore is commited only.
+
+push -- push the changes from local to central
+clone - first time copy cration
+pull -- get me additional changes to my local
+
+git remote -v
+ git push --tags
+
+git branch 
+ git branch <<releasename>>
+git checkout mayrel  (this will be to change to the branch)
+  git merge mayrel
+
+
+
+git branch -d junerel  (to delete branch)
+
+git reset --hard b7c6f51
+
+
+
